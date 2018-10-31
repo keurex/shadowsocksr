@@ -1,33 +1,33 @@
 #**********************************************************************
 # 10.20
-# 2018Äê10ÔÂ20ÈÕ15:55:33
-# ×ªÔØĞèÒª×¢Ã÷°æÈ¨ºÍÀ´Ô´
+# 2018å¹´10æœˆ20æ—¥15:55:33
+# è½¬è½½éœ€è¦æ³¨æ˜ç‰ˆæƒå’Œæ¥æº
 #
-# ÆÁ±Î³£ÓÃÍøÕ¾¡¢ÊÓÆµ¡¢ÊÖ»úrom¹ã¸æ&ÔËÓªÉÌ½Ù³Ö¹ã¸æ&Êı¾İ¸ú×Ù&¿ªÆÁ¹ã¸æ
+# å±è”½å¸¸ç”¨ç½‘ç«™ã€è§†é¢‘ã€æ‰‹æœºromå¹¿å‘Š&è¿è¥å•†åŠ«æŒå¹¿å‘Š&æ•°æ®è·Ÿè¸ª&å¼€å±å¹¿å‘Š
 #
-# ²ÎÕÕlhie1µÄsurge¹æÔò¸Ä±à£¬ÖÂĞ»!! https://github.com/lhie1/Surge
-# ²ÎÕÕscomperµÄsurge¹æÔò¸Ä±à£¬ÖÂĞ»!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+# å‚ç…§lhie1çš„surgeè§„åˆ™æ”¹ç¼–ï¼Œè‡´è°¢!! https://github.com/lhie1/Surge
+# å‚ç…§scomperçš„surgeè§„åˆ™æ”¹ç¼–ï¼Œè‡´è°¢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 #
-# ¸üĞÂ¼ÇÂ¼ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
-# ÏÂÔØµØÖ· https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
+# æ›´æ–°è®°å½• https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
+# ä¸‹è½½åœ°å€ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
 #
-# ²ÎÊı½âÊÍ£º
-# [proxy_all] Ä¬ÈÏ´úÀí-±¾¹æÔòÊ¹ÓÃ
-# [bypass_all] Ä¬ÈÏÖ±Á¬
-# [outbound_block_list] ½ûÖ¹·ÃÎÊÁĞ±í ÔÚ27ĞĞ
-# [proxy_list] ´úÀíÁĞ±í ÔÚ1210¶àĞĞ
-# [remote_dns] Ô¶³Ì DNS ½âÎö -²»¼ÓÊ¹ÓÃ±¾µØ DNS
+# å‚æ•°è§£é‡Šï¼š
+# [proxy_all] é»˜è®¤ä»£ç†-æœ¬è§„åˆ™ä½¿ç”¨
+# [bypass_all] é»˜è®¤ç›´è¿
+# [outbound_block_list] ç¦æ­¢è®¿é—®åˆ—è¡¨ åœ¨27è¡Œ
+# [proxy_list] ä»£ç†åˆ—è¡¨ åœ¨1210å¤šè¡Œ
+# [remote_dns] è¿œç¨‹ DNS è§£æ -ä¸åŠ ä½¿ç”¨æœ¬åœ° DNS
 #
 #**********************************************************************
 
 [proxy_all]
-# Ä¬ÈÏ´úÀí
+# é»˜è®¤ä»£ç†
 
 #**********************************************************************
 [outbound_block_list]
-# ½ûÖ¹·ÃÎÊÁĞ±í
+# ç¦æ­¢è®¿é—®åˆ—è¡¨
 
-# ¹ã¸æ¹Ø¼ü´Ê
+# å¹¿å‘Šå…³é”®è¯
 (^|\.)\w*admarvel\w*\.\w*$
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
@@ -293,7 +293,7 @@
 # Apple
 (^|\.)adserver\.unityads\.unity3d\.com$
 
-# Book-app Æğµã ÕÆÔÄ ÊéÆì ÒËËÑ
+# Book-app èµ·ç‚¹ æŒé˜… ä¹¦æ—— å®œæœ
 (^|\.)(adm|assets|tjlog)(\.ps|)\.easou\.com$
 (^|\.)(ad|push|sys)\.zhangyue\.com$
 (^|\.)(cj|game|tongji)\.qidian\.com$
@@ -392,7 +392,7 @@
 (^|\.)apk\.shouji\.koowo\.com$
 (^|\.)g\.koowo\.com$
 
-# Meizu flyme ÷È×å
+# Meizu flyme é­…æ—
 (^|\.)(aider-res|api-flow|api-game|api-push|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\.meizu\.com$
 (^|\.)(bro|t-e|t-flow)\.flyme\.cn$
 (^|\.)(ebook|game|push|reader|upush)\.res\.meizu\.com$
@@ -409,7 +409,7 @@
 (^|\.)xiuxiu\.android\.dl\.meitu\.com$
 (^|\.)xiuxiu\.mobile\.meitudata\.com$
 
-# Miui Ğ¡Ã×
+# Miui å°ç±³
 (^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
 (^|\.)(a|wtradv)\.market\.xiaomi\.com$
 (^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
@@ -522,10 +522,10 @@
 # Wi-Fi key
 (^|\.)(c|cdsget|news-imgpb|wifiapi\d\d|wkanc)\.51y5\.net$
 
-# Ximalaya Ï²ÂíÀ­ÑÅ
+# Ximalaya å–œé©¬æ‹‰é›…
 (^|\.)(adse|linkeye|location|xdcs-collector)\.ximalaya\.com$
 
-# Xunlei Ñ¸À×app&¿´¿´
+# Xunlei è¿…é›·app&çœ‹çœ‹
 (^|\.)biz5\.kankan\.com$
 (^|\.)float\.kankan\.com$
 (^|\.)logic\.cpm\.cm\.kankan\.com$
@@ -549,19 +549,19 @@
 # Zhihu
 (^|\.)(sugar|zhihu-web-analytics)\.zhihu\.com$
 
-# Ads in Video apps********************ÏÂÃæ¶¼ÊÇ
+# Ads in Video apps********************ä¸‹é¢éƒ½æ˜¯
 
-# 6¼ä·¿
+# 6é—´æˆ¿
 (^|\.)(shrek|simba|union)\.6\.cn$
 
-# Baofeng ±©·çÓ°Òô
+# Baofeng æš´é£å½±éŸ³
 (^|\.)logger\.baofeng\.com$
 (^|\.)xs\.houyi\.baofeng\.net$
 
 # Douyu
 (^|\.)dotcounter\.douyutv\.com$
 
-# Fenghuang ·ï»ËTV
+# Fenghuang å‡¤å‡°TV
 (^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|stadig)\.ifeng\.com$
 (^|\.)api\.newad\.ifeng\.com$
@@ -569,10 +569,10 @@
 (^|\.)iis3g\.deliver\.ifeng\.com$
 (^|\.)mfp\.deliver\.ifeng\.com$
 
-# Funshion ·çĞĞ
+# Funshion é£è¡Œ
 (^|\.)(pub|adm|jobsfe|po|pv|stat)\.funshion\.com$
 
-# iqiyi PPS °®ÆæÒÕ
+# iqiyi PPS çˆ±å¥‡è‰º
 (^|\.)ad\.m\.iqiyi\.com$
 (^|\.)afp\.iqiyi\.com$
 (^|\.)c\.uaa\.iqiyi\.com$
@@ -598,13 +598,13 @@
 101.227.97.240/32
 124.192.153.42/32
 
-# Ku6 ¿á6
+# Ku6 é…·6
 (^|\.)gug\.ku6cdn\.com$
 (^|\.)st\.vq\.ku6\.cn$
 (^|\.)pq\.stat\.ku6\.com$
 (^|\.)static\.ku6\.com$
 
-# LeTV ÀÖÊÓ
+# LeTV ä¹è§†
 (^|\.)(ark|dc|fz|g3|minisite|pro|stat)\.letv\.com$
 (^|\.)(i0|i3)\.letvimg\.com$
 (^|\.)game\.letvstore\.com$
@@ -612,12 +612,12 @@
 (^|\.)pro\.hoye\.letv\.com$
 (^|\.)static\.app\.m\.letv\.com$
 
-# MGTV Ã¢¹ûTV
+# MGTV èŠ’æœTV
 (^|\.)(click|da|log|p2|res)\.hunantv\.com$
 (^|\.)da\.mgtv\.com$
 (^|\.)log\.v2\.hunantv\.com$
 
-# Sohu ËÑºü
+# Sohu æœç‹
 (^|\.)(888|lm|push)\.tv\.sohu\.com$
 (^|\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\.hd\.sohu\.com$
 (^|\.)(ads|adnet|aty|epro|golden1|hui|inte|uranus|wan|yule|pv)\.sohu\.com$
@@ -632,7 +632,7 @@
 (^|\.)score\.my\.tv\.sohu\.com$
 (^|\.)zz\.m\.sohu\.com$
 
-# PPTV¡¢PPLive
+# PPTVã€PPLive
 (^|\.)(de|jp)\.as\.pptv\.com$
 (^|\.)ads\.aplus\.pptv\.com$
 (^|\.)afp\.pplive\.com$
@@ -735,10 +735,10 @@
 (^|\.)t\.cr-nielsen\.com$
 (^|\.)terren\.cntv\.cn$
 
-# Ads in Video apps end ********************ÉÏÃæ¶¼ÊÇ
+# Ads in Video apps end ********************ä¸Šé¢éƒ½æ˜¯
 
 
-# ³£ÓÃÍøÕ¾¹ã¸æ****************
+# å¸¸ç”¨ç½‘ç«™å¹¿å‘Š****************
 (^|\.)(168|adshownew|stat)\.it168\.com$
 (^|\.)(1|2)\.win7china\.com$
 (^|\.)(801|803|806|808|bdj|dol|click)\.(tianya|tianyaui)\.cn$
@@ -804,7 +804,7 @@
 (^|\.)tracker\.yhd\.com$
 (^|\.)up\.qingdaonews\.com$
 
-# ¹ã¸æÁªÃË-¹úÄÚ****************
+# å¹¿å‘Šè”ç›Ÿ-å›½å†…****************
 (^|\.)100peng\.com$
 (^|\.)114la\.com$
 (^|\.)123juzi\.net$
@@ -1184,7 +1184,7 @@
 (^|\.)zqzxz\.com$
 (^|\.)zzsx8\.com$
 
-# ¹ã¸æÁªÃË-¹úÍâ****************
+# å¹¿å‘Šè”ç›Ÿ-å›½å¤–****************
 (^|\.)ad-stir\.com$
 (^|\.)ad-survey\.com$
 (^|\.)ad4game\.com$
@@ -1287,7 +1287,7 @@
 (^|\.)yengo\.com$
 (^|\.)zedo\.com$
 
-# À¬»øÍøÕ¾
+# åƒåœ¾ç½‘ç«™
 (^|\.)11h5\.com$
 (^|\.)1kxun\.mobi$
 (^|\.)519397\.com$
@@ -1300,14 +1300,14 @@
 (^|\.)win-stock\.com\.cn$
 (^|\.)zantainet\.com$
 
-### ÔËÓªÉÌ¹ã¸æ
+### è¿è¥å•†å¹¿å‘Š
 (^|\.)\w\w(\w|)dnserror\d(\d|)\.wo\.com\.cn
 (^|\.)114so\.cn$
 (^|\.)go\.10086\.cn$
 (^|\.)navi\.gd\.chinamobile\.com$
 (^|\.)hivedata\.cc$
 
-# ÔËÓªÉÌ¹ã¸æIP¶Î
+# è¿è¥å•†å¹¿å‘ŠIPæ®µ
 1.3.0.10/32
 10.72.25.0/24
 23.42.186.24/32
@@ -1477,9 +1477,9 @@
 
 #**********************************************************************
 [proxy_list]
-# ´úÀíÁĞ±í
+# ä»£ç†åˆ—è¡¨
 
-# ¹úÍâÓòÃû
+# å›½å¤–åŸŸå
 ^.*\.hk$
 ^.*\.tw$
 ^.*\.sg$
@@ -1506,7 +1506,7 @@
 (^|\.)twdvd\.com$
 (^|\.)xn--i2ru8q2qg\.com$
 
-# ¹úÍâÓòÃû¹Ø¼ü×Ö
+# å›½å¤–åŸŸåå…³é”®å­—
 (^|\.)\w*1e100\w*\.\w*$
 (^|\.)\w*abema\w*\.\w*$
 (^|\.)\w*appledaily\w*\.\w*$
@@ -1808,7 +1808,13 @@
 75.126.150.0/16
 69.171.235.0/16
 
-#·ÉÁ÷Ö±²¥
+#é£æµç›´æ’­
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
+#**********************************************************************
+[bypass_list]
+# ç›´è¿åˆ—è¡¨
+
+192.168.43.104
